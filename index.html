@@ -9,6 +9,99 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <video autoplay muted loop id="navVideo">
+            <source src="topanimation.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="logo">Nishant's Portfolio</div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact us</li>
+        </ul>
+    </nav>
+
+    <!-- Shared animated background wrapper -->
+    <section class="animated-bg">
+        <video autoplay muted loop playsinline id="bgVideo">
+            <source src="heroanimation.mp4" type="video/mp4">
+        </video>
+
+        <main>
+            <div class="hero">
+                <div class="hero-left">
+                    <div class="one">Welcome to my portfolio</div>
+                    <div class="two">Have a look on my works and achievements</div>
+                    <div>
+                        <a href="https://www.linkedin.com/in/nishant-singh-yadav-a2967237a?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                            target="_blank" class="btn">
+                            Works
+                        </a>
+                        <button class="btn" id="achieveBtn">Achievements</button>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <img src="coder.jpg" alt="image of a coder" class="hero-image">
+                </div>
+            </div>
+
+            <div class="projects">
+                <div class="project">
+                    <div class="project-image">
+                        <img src="finallogo.jpeg" alt="unibridge logo">
+                    </div>
+                    <div class="project-info">
+                        UniBridge is a student-focused discussion and mentorship platform built especially for
+                        engineering students. It connects juniors and seniors in one space to ask doubts, share
+                        knowledge, and guide each other academically and professionally. Students can post questions,
+                        participate in discussions, and access useful learning resources. A dedicated events section
+                        allows different colleges to post seminars, hackathons, workshops, and technical events so
+                        students never miss important opportunities. UniBridge aims to reduce the communication gap
+                        between semesters and institutions. It also supports preparation for placements, coding
+                        contests, and technical interviews through peer learning. By creating a collaborative academic
+                        ecosystem, UniBridge encourages growth, networking, and continuous improvement.
+
+                        <div>
+                            <button class="btn" id="viewProjectBtn">View Project</button>
+            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <script>
+        document.getElementById("achieveBtn").addEventListener("click", function () {
+            alert(`New achievement is underway......
+Whenever it will be achieved, it will be reflected here.`);
+        });
+
+        document.getElementById("viewProjectBtn").addEventListener("click", function () {
+            alert("Project is underway...");
+
+        });
+
+    </script>
+</body>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishant's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <style>
  .projects {
     padding: 50px 20px;
