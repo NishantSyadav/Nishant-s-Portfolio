@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishant's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <style>
+ .projects {
+    padding: 50px 20px;
+    background-color: #f2f2f2;
+    margin-top: 20px;
+}
+.project{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.project-image img{
+width: 100%;
+max-width: 300px;
+height: auto;
+display: block;
+color:#333;
+}
+
+.project-info{
+    font-size: 18px;
+    line-height: 1.5;
+}
+    </style>
+</head>
+
+<body>
+    <nav>
+        <video autoplay muted loop id="navVideo">
+            <source src="topanimation.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="logo">Nishant's Portfolio</div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact us</li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <video autoplay muted loop playsinline id="heroVideo">
+                <source src="heroanimation.mp4" type="video/mp4">
+            </video>
+            <div class="hero-left">
+                <div class="one">Welcome to my portfolio</div>
+                <div class="two">Have a look on my works and achievements</div>
+                <div>
+                    <button class="btn">Works</button>
+                    <button class="btn">Achievements</button>
+                </div>
+            </div>
+            <div class="hero-right">
+                <img src="coder.jpg" alt="image of a coder" class="hero-image">
+            </div>
+
+        </section>
+
+        <section class="projects">
+            <div class="project">
+                <div class="project-image">
+                    <img src="logo.jpeg" alt="unibridge logo">
+                </div>
+                <div class="project-info">
+                    Connecting engineering students for mentorship,collaborationand shared learning.
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>
