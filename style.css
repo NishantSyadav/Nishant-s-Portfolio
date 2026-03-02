@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 * {
     margin: 0;
     padding: 0;
@@ -202,7 +202,7 @@ nav ul li:hover {
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px);}
     to { opacity: 1; transform: translateY(0);}
-=======
+}
 
 * {
     margin: 0;
@@ -355,5 +355,5 @@ nav ul li:hover {
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px);}
     to { opacity: 1; transform: translateY(0);}
->>>>>>> c0ef3c006a3c90f7095fc7548c65df9e804faf71
+
 }
